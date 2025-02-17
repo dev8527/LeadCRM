@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+.applybtn {
+  color: #3879f4;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 16.5px;
+  border-radius: 20px;
+  border: 1px solid #3879F4;
+  padding: 4px 20px;
+  background: #F5F8FF;
+  cursor: pointer;
+}
+
+.bg {
+  background: white;
+}
+
+.filter {
+  max-width: 280px;
+}
+
+.clearFilters {
+  cursor: pointer;
+  width: 7%;
+}
+
+.leads_profile_img {
+  border-radius: 80px;
+  border: 1px solid #F4F4F4;
+  overflow: hidden;
+  object-fit: cover;
+  margin-right: 10px;
+  width: 64px;
+  height: 64px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarBg {
+  background: #405189;
+}
+
+.text {
+  color: whitesmoke;
+
+}
+
+.searchImg {
+  width: 17% !important;
+  height: auto;
+  border: 1px solid #dfdfdf;
+  border-radius: 100%;
+}
