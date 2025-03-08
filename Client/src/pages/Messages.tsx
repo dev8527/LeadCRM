@@ -3,8 +3,7 @@ import AuthContext from "../context/AuthProvider";
 import { getProspect } from "../hooks/authService"; // Import the service function
 import DashboardLayout from '../components/MainLayout';
 import { useNavigate } from "react-router-dom";
-import ProspectContent from "../components/ProspectContent";
-import ContactsInterface from "../components/ContactsInterface";
+import Messageface from "../components/Messageface";
 
 const ProspectList = () => {
   const navigate = useNavigate();
@@ -38,7 +37,7 @@ const ProspectList = () => {
 
   return (
     <DashboardLayout>
-      <ContactsInterface prospects={undefined} loading={undefined} error={undefined} handleBulkExport={undefined} />
+      <Messageface />
       {/* <ProspectContent 
         prospects={prospects}
         loading={loading}

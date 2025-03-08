@@ -25,6 +25,22 @@
   cursor: pointer;
   width: 7%;
 }
+.cursor{
+  cursor: pointer;
+}
+.sidebariconText{
+  font-size: 13px;
+}
+
+svg.lucide.lucide-house, 
+svg.lucide.lucide-chart-no-axes-column,
+svg.lucide-search,
+svg.lucide-briefcase,
+svg.lucide-mail
+{
+    width: 17px !important;
+}
+
 
 .leads_profile_img {
   border-radius: 80px;
@@ -42,7 +58,7 @@
 }
 
 .sidebarBg {
-  background: #405189;
+  background: #4f39f6;
 }
 
 .text {
